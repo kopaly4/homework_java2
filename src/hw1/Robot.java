@@ -1,6 +1,6 @@
 package hw1;
 
-public class Robot implements JumpRun{
+public class Robot implements JumpRun {
     private String name;
     private int jumpability;
     private int runability;
@@ -19,7 +19,7 @@ public class Robot implements JumpRun{
 
     @Override
     public void jump() {
-        System.out.println(name +  "can`t jump");
+        System.out.println(name + "can`t jump");
 
     }
 

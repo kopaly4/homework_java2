@@ -1,6 +1,6 @@
 package hw1;
 
-public class Runningtrack implements Barriers{
+public class Runningtrack implements Barriers {
     private int trackLength;
 
     public Runningtrack(int trackLength) {
@@ -8,11 +8,10 @@ public class Runningtrack implements Barriers{
     }
 
 
-
-//    public int getTrackLength() {
+    //    public int getTrackLength() {
 //        return trackLength;
 //    }
-    public void action(JumpRun runner){
+    public void action(JumpRun runner) {
         runner.runontrack();
     }
 }

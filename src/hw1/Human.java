@@ -1,6 +1,6 @@
 package hw1;
 
-public class Human implements JumpRun{
+public class Human implements JumpRun {
     private String name;
     private int jumpability;
     private int runability;
@@ -22,14 +22,15 @@ public class Human implements JumpRun{
         System.out.println(name + "has jumped");
 
     }
+
     @Override
-    public void jumpthroughthewall(){
+    public void jumpthroughthewall() {
         System.out.println(name + " has jumped through the wall");
     }
 
     @Override
     public void runontrack() {
-        System.out.println(name +" has run on the running track");
+        System.out.println(name + " has run on the running track");
 
     }
 
