@@ -1,6 +1,6 @@
 package hw1;
 
-public class Cat implements JumpRun{
+public class Cat implements JumpRun {
     private String name;
     private int jumpability;
     private int runability;

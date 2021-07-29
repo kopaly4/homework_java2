@@ -1,5 +1,5 @@
 package hw1;
 
 public interface Barriers {
-   void action(JumpRun jumpRunners);
+    void action(JumpRun jumpRunners);
 }

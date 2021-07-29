@@ -7,7 +7,7 @@ public class Wall implements Barriers {
         this.wallheight = wallheight;
     }
 
-//    public void jumpthruthewall(JumpRun jumper) {
+    //    public void jumpthruthewall(JumpRun jumper) {
 ////        if(jumper.getJumpability() < wallheight){
 ////            System.out.println(jumper.getName() + " can`t jump that height");
 ////        } else jumper.jumpthroughthewall();
@@ -16,7 +16,7 @@ public class Wall implements Barriers {
 //
 //    public int getWallheight() {
 //        return wallheight;
-    public void action(JumpRun jumper){
+    public void action(JumpRun jumper) {
         jumper.jumpthroughthewall();
     }
 
